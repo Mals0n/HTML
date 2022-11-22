@@ -27,15 +27,15 @@
             </ul>
         </div>
     </header>
-    <section class="oferta"></section>
+    <div class="oferta"></div>
 
     <div class="row">
         <div class="zdjecie1">
-            <a href="lambo.html"> <img src="lambo.jpg"></a>
+            <a href="lambo.html"> <img class="img" src="lambo.jpg" alt="Zdjęcie lambo"></a>
         </div>
 
         <div class="zdjecie2">
-            <a href="merol.html"><img src="lambo2.jpg"></a>
+            <a href="merol.html"><img  class="img" src="lambo2.jpg" alt="Zdjęcie camaro"></a>
         </div>
     </div>
 
@@ -53,7 +53,7 @@
         </ul>
         <p>@2022 GangCars | All Rights Reserved</p>
     </div>
-    <script type="text/javascript">
+    <script>
         window.addEventListener("scroll", function () {
             var header = document.querySelector("header");
             header.classList.toggle("sticky", window.scrollY > 0);
