@@ -1,12 +1,12 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GangCars</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styl.css">
 </head>
@@ -27,61 +27,17 @@
             </ul>
         </div>
     </header>
-    <section class="formularz"></section>
-    <section class="contact">
-        <div class="content">
-            <!--<h2>Kontakt</h2>
-            <p></p>-->
+    <div class="oferta"></div>
+
+    <div class="row">
+        <div class="zdjecie1">
+            <a href="lambo.html"> <img class="img" src="lambo.jpg" alt="Zdjęcie lambo"></a>
         </div>
-        <div class="container">
-            <div class="contactinfo">
-                <div class="box">
-                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                    <div class="text">
-                        <h3>Adres</h3>
-                        <p>Opole, Strzelców Bytomskich 1</p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
-                    <div class="text">
-                        <h3>Telefon</h3>
-                        <p>+48 829 716 982</p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
-                    <div class="text">
-                        <h3>Email</h3>
-                        <p>Gangcars@gmail.com</p>
-                    </div>
-                </div>
-            </div>
-            <div class="contactform">
-                <form>
-                    <h2>
-                        Wyślij wiadomość
-                    </h2>
-                    <div class="inputBox">
-                        <input type="text" id="imie" name="" required="required" onfocusout="sprawdz1()" />
-                        <span>Imie i Nazwisko</span>
-                        <p id="pole1" style="color:red;"></p>
-                    </div>
-                    <div class="inputBox">
-                        <input type="text" name="" required="required" />
-                        <span>Email</span>
-                    </div>
-                    <div class="inputBox">
-                        <textarea required="required"></textarea>
-                        <span>Twoja wiadomość</span>
-                    </div>
-                    <div class="inputBox">
-                        <input type="submit" name="" value="Wyślij" />
-                    </div>
-                </form>
-            </div>
+
+        <div class="zdjecie2">
+            <a href="merol.html"><img  class="img" src="lambo2.jpg" alt="Zdjęcie camaro"></a>
         </div>
-    </section>
+    </div>
 
     <div id="stopka">
         <ul class="social_icon">
@@ -97,7 +53,7 @@
         </ul>
         <p>@2022 GangCars | All Rights Reserved</p>
     </div>
-    <script type="text/javascript">
+    <script>
         window.addEventListener("scroll", function () {
             var header = document.querySelector("header");
             header.classList.toggle("sticky", window.scrollY > 0);
@@ -106,14 +62,7 @@
     </script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-    <script>
-        function sprawdz1() {
-            var imie = document.getElementById("imie").value;
-            if (imie == "") document.getElementById("pole1").innerHTML = "Podaj imię i nazwisko";
-            else document.getElementById("pole1").innerHTML = "";
-        }
-    </script>
+   
 
     <script>
         const toggleButton = document.getElementsByClassName('toggle-button')[0]
