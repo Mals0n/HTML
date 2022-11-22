@@ -34,36 +34,36 @@ image {
     height: auto;
     padding-top: 48.25%;
     background-image: url(dodge.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
     background-position: center;
-    background-size: cover;
-    border-bottom: 0px;
 }
 .formularz {
     max-width: 100%;
     height: auto;
     padding-top: 48.25%;
     background-image: url(formularz.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
     background-position: center;
-    background-size: cover;
-    border-bottom: 0px;
 }
 .lambo {
     max-width: 100%;
     height: auto;
     padding-top: 48.25%;
     background-image: url(lambozdj.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
     background-position: center;
-    background-size: cover;
-    border-bottom: 0px;
 }
 .merol {
     max-width: 100%;
     height: auto;
     padding-top: 48.25%;
     background-image: url(merol.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
     background-position: center;
-    background-size: cover;
-    border-bottom: 0px;
 }
 .image {
     max-width: 100%;
@@ -501,4 +501,17 @@ table, th, td {
     .banner {
         min-height: 20vh;
     }
+}
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}
+iframe {
+    width: 100%;
 }
