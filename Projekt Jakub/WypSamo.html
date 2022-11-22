@@ -2,7 +2,7 @@
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
         GangCars</title>
@@ -15,7 +15,7 @@
 <body>
 
     <div class="banner"></div>
-   
+
 
 
     <header class="navbar">
@@ -37,7 +37,7 @@
 
     <div class="srodek">
         <div class="image">
-            <img id="zdjecie" src="bmwm8.jpg" />
+            <img id="zdjecie" src="bmwm8.jpg" alt="Zdjęcie bmw">
         </div>
         <!--1 skrypt jquery-->
         <script>
@@ -58,18 +58,6 @@
                     });
                 });
             </script>
-            <style>
-                #panel, #flip {
-                    padding: 5px;
-                    text-align: center;
-                    background-color: white;
-                }
-
-                #panel {
-                    padding: 50px;
-                    display: none;
-                }
-            </style>
 
             <div id="flip">Rozwiń treść</div>
             <div id="panel"><h3>O NAS</h3>  <p>Gangcars to firma z wieloletnim doświadczeniem w zakresie wypożyczania samochodów sportowych. Wykorzystując zdobywaną przez ten czas wiedzę, stworzyliśmy dla naszych klientów profesjonalny salon. W przygotowanej przez nas ofercie można znaleźć utrzymane w doskonałym stanie pojazdy takich marek jak Lamborghini, Ferarri, BMW, Mercedes i wiele innych. Nie zawiedziemy Państwa oczekiwań.</p>  <button class="zmiana">Usuń treść</button> </div>
@@ -87,7 +75,7 @@
     </div>
 
     <div class="myMap">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2528.9418510483833!2d17.91950371570577!3d50.66534017950557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47105304917312cb%3A0x71af59797af147bd!2sStrzelc%C3%B3w%20Bytomskich%201%2C%2046-020%20Opole!5e0!3m2!1spl!2spl!4v1665754050637!5m2!1spl!2spl" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2528.9418510483833!2d17.91950371570577!3d50.66534017950557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47105304917312cb%3A0x71af59797af147bd!2sStrzelc%C3%B3w%20Bytomskich%201%2C%2046-020%20Opole!5e0!3m2!1spl!2spl!4v1665754050637!5m2!1spl!2spl" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <div id="stopka">
         <ul class="social_icon">
@@ -105,7 +93,7 @@
     </div>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <script type="text/javascript">
+    <script>
         window.addEventListener("scroll", function () {
             var header = document.querySelector("header");
             header.classList.toggle("sticky", window.scrollY > 0);
@@ -124,8 +112,7 @@
             navbarLinks.classList.toggle('active')
         })
     </script>
-
+    <!--sticky, walidacja formularza, powrót do góry - js-->
+    <!--rozwinięcie, usunięcie tekstu --->
 </body>
 </html>
-<!--sticky, walidacja formularza, powrót do góry - js-->
-<!--rozwinięcie, usunięcie tekstu --->
