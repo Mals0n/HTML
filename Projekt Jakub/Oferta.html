@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>GangCars</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="#" class="logo">GangCars</a>
+        <a class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="WypSamo.html">Strona Główna</a></li>
+                <li><a href="Oferta.html">Oferta</a></li>
+                <li><a href="Formularz.html">Kontakt</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="oferta"></section>
+
+    <div class="row">
+        <div class="column" onmouseover="flow()">
+            <a href="lambo.html"> <img src="lambo.jpg" width="100%;" /></a>
+        </div>
+
+        <div class="column" onmouseover="flow()">
+            <a href="merol.html"><img src="lambo2.jpg" width="100%;" /></a>
+        </div>
+    </div>
+
+    <div id="stopka">
+        <ul class="social_icon">
+            <li><a href="http://facebook.com"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="http://twitter.com"><ion-icon name="logo-twitter"></ion-icon></a></li>
+            <li><a href="http://linkedin.com"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+            <li><a href="http://instagram.com"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        </ul>
+        <ul class="menu">
+            <li><a href="WypSamo.html">Strona Główna</a></li>
+            <li><a href="Oferta.html">Oferta</a></li>
+            <li><a href="Formularz.html">Kontakt</a></li>
+        </ul>
+        <p>@2022 GangCars | All Rights Reserved</p>
+    </div>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+
+        function flow() {
+            document.getElementByClass("column").style.color = "red";
+        }
+    </script>
+
+    <script>
+        const toggleButton = document.getElementsByClassName('toggle-button')[0]
+        const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+        toggleButton.addEventListener('click', () => {
+            navbarLinks.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>

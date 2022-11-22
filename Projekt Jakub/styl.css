@@ -1,0 +1,504 @@
+* {
+    padding-bottom: 20px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+ 
+}
+image {
+    max-width: 100%;
+    height: auto;
+}
+.img {
+    border: 10px;
+}
+
+.toggle-button .bar {
+    background-color:black;
+}
+.banner {
+    max-width: 100%;
+    height: auto;
+    padding-top: 48.25%;
+    background-image: url(samochody.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+}
+
+.oferta {
+    max-width: 100%;
+    height: auto;
+    padding-top: 48.25%;
+    background-image: url(dodge.jpg);
+    background-position: center;
+    background-size: cover;
+    border-bottom: 0px;
+}
+.formularz {
+    max-width: 100%;
+    height: auto;
+    padding-top: 48.25%;
+    background-image: url(formularz.jpg);
+    background-position: center;
+    background-size: cover;
+    border-bottom: 0px;
+}
+.lambo {
+    max-width: 100%;
+    height: auto;
+    padding-top: 48.25%;
+    background-image: url(lambozdj.jpg);
+    background-position: center;
+    background-size: cover;
+    border-bottom: 0px;
+}
+.merol {
+    max-width: 100%;
+    height: auto;
+    padding-top: 48.25%;
+    background-image: url(merol.jpg);
+    background-position: center;
+    background-size: cover;
+    border-bottom: 0px;
+}
+.image {
+    max-width: 100%;
+    height: auto;
+}
+header {
+    position: fixed;
+    background-color: #fff;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 100000;
+}
+
+    header .logo {
+        position: relative;
+        font-weight: 700;
+        color: #000;
+        text-decoration: none;
+        font-size: 2em;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        transition: 0.6s;
+        
+        -webkit-text-stroke-width: 2px;
+    }
+
+    header ul {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        header ul li {
+            position: relative;
+            list-style: none;
+        }
+
+            header ul li a {
+                position: relative;
+                margin: 0px 15px;
+                text-decoration: none;
+                color: #000;
+                letter-spacing: 2px;
+                font-weight: 500;
+                transition: 0.6s;
+                -webkit-text-fill-color: transparent;
+                -webkit-text-stroke-width: 2px;
+            }
+header.sticky {
+    padding: 5px 100px;
+    background: #000;
+}
+    .toggle-button,
+    header.sticky .logo,
+    header.sticky ul li a {
+        color: #fff;
+    }
+.myMap {
+        padding: 0px;
+        border-bottom: 0px;
+}
+section {
+    padding: 2rem;
+}
+.heading {
+    text-align:center;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+.heading span{
+    color: black;
+    text-transform: uppercase;
+}
+
+
+.image {
+    float: left;
+    width: 50%;
+    padding: 30px;
+}
+
+.opis {
+    float: right;
+    width: 50%;
+    font-size: 1rem;
+    color: black;
+    padding: 30px;
+    line-height: 1;
+}
+
+.srodek:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 1000px) {
+    .image,
+    .opis {
+        float: none;
+        width: auto;
+    }
+}
+
+
+img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#stopka {
+    position: relative;
+    width: 100%;
+    background-color: black;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#stopka .social_icon,
+#stopka .menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+#stopka .social_icon li, 
+#stopka .menu li{
+        list-style: none;
+}
+#stopka .social_icon li a{
+        font-size: 2em;
+        color: #fff;
+        margin: 0 10px;
+        display: inline-block;
+        transition: 0.5s;
+    }
+#stopka .social_icon li a:hover {
+        transform: translateY(-10px);
+}
+#stopka .menu li a {
+        font-size: 1.2em;
+        color: #fff;
+        margin: 0 10px;
+        display: inline-block;
+        transition: 0.5s;
+        text-decoration:none;
+        opacity: 0.75;
+}
+    #stopka .menu li a:hover {
+        opacity: 1;
+    }
+#stopka p {
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size:0.7em;
+}
+
+
+
+/* Kontakt */
+.contact{
+    position: relative;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact .content {
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2{
+    font-size: 50px;
+    font-weight: 500;
+    color: #000;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactinfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+    .container .contactinfo .box {
+        position: relative;
+        padding: 20px 0;
+        display: flex;
+    }
+.container .contactinfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.container .contactinfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: gray;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container .contactinfo .box .text h3{
+    font-weight: 500;
+    color: black
+}
+.contactform{
+    width: 40%;
+    padding: 40px;
+    background: black;
+}
+.contactform h2{
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+}
+.contactform .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactform .inputBox input,
+.contactform .inputBox textarea {
+        width: 100%;
+        padding: 5px 0;
+        font-size: 16px;
+        margin: 10px 0;
+        border: none;
+        border-bottom: 2px solid #333;
+        outline: none;
+        resize: none;
+    }
+    .contactform .inputBox span {
+        position: absolute;
+        left: 0;
+        padding: 5px 5px;
+        font-size: 16px;
+        margin: 10px 0;
+        pointer-events: none;
+        transition: 0.5s;
+        color: gray;
+    }
+    .contactform .inputBox input:focus ~ span,
+    .contactform .inputBox input:valid ~ span,
+    .contactform .inputBox textarea:focus ~ span,
+    .contactform .inputBox textarea:valid ~ span {
+        color: white;
+        font-size: 12px;
+        transform: translateY(-25px);
+    }
+.contactform .inputBox input[type="submit"]
+{
+    width: 100px;
+    background: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+
+}
+@media (max-width: 991px)
+{
+    .contact
+    {
+        padding: 50px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .container .contactinfo{
+        margin-bottom: 40px;
+    }
+    .container .contactinfo,
+    .contactform
+    {
+        width: 100%;
+    }
+}
+/*Zdjecia w ofercie*/
+.column{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+    width: 50%;
+    padding: 30px;
+    transition: 1s;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.column img {
+    border: 1px solid black;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+.column:hover{
+    transform:scale(1.07);
+    z-index: 2;
+}
+/*Auta oferta*/
+.nazwa{
+   background-color: black;
+   color: white;
+   width: 100%;
+   text-align: center;
+   font-size: 25px;
+   padding: 30px;
+}
+/*Tabela*/
+table, th, td {
+    margin-top: 10px;
+    border: 1px solid;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    transition-duration: 0.4s;
+}
+/*Przyciski*/
+
+.zmiana {
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 50px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    .zmiana:hover {
+        background-color: tomato;
+    }
+
+   /* toogle button*/
+
+    .toggle-button {
+    position: absolute;
+    right: 2rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    margin-top: 10px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 991px) {
+    .toggle-button {
+        display: flex;
+    }
+    .navbar-links{
+       display: none;
+        width: 100%;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar-links ul{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links li{
+        text-align: center;
+    }
+    .navbar-links li a {
+        padding: .5rem 1rem;
+    }
+    .navbar-links.active{
+        display: flex;
+    }
+}
+@media (max-width: 500px) {
+    .srodek .row .image {
+        width: 100%;
+        height: auto;
+    }
+}
+#pierwszy {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 400px){
+    .banner {
+        min-height: 20vh;
+    }
+}

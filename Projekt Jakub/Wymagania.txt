@@ -1,0 +1,30 @@
+1. Html
+2. Css
+3. JavaScript
+4. Jquery
+Dodać przynajmniej jeden skrypt z wykorzystaniem biblioteki jQuery do strony. Skrypt może na
+przykład służyć do:
+ walidacji formularza,
+ dynamicznej zmiany treści strony (bez przeładowania jej), zakładek,
+ Ajax i przesyłanie danych do php,
+ Animacji, przesuwania elementów,
+ Obsługa zdarzeń na stronie.
+5. Strona musi przejść walidację: http://validator.w3.org/
+
+
+
+
+Na bdb:
+
+
+
+
+ 3 skrypty JQuery,
+ użycie Ajax
+
+
+
+
+
+ 3 skrypty JQuery,
+ użycie Ajax

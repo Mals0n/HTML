@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>GangCars</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="#" class="logo">GangCars</a>
+        <a class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="WypSamo.html">Strona Główna</a></li>
+                <li><a href="Oferta.html">Oferta</a></li>
+                <li><a href="Formularz.html">Kontakt</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="merol"></section>
+    <section class="nazwa">
+        <b>Chevrolet Camaro VI ZL1 6.2 V8 - Dane Techniczne</b>
+    </section>
+
+    <table align="center">
+        <tr>
+            <td>Rodzaj silnika - Liczba cylindrów</td>
+            <td>V8</td>
+        </tr>
+        <tr>
+            <td>Rodzaj paliwa</td>
+            <td>Benzyna</td>
+        </tr>
+        <tr>
+            <td>Układ paliwowy</td>
+            <td>Wtrysk bezpośredni</td>
+        </tr>
+        <tr>
+            <td>Liczba drzwi</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Pozycja silnika</td>
+            <td>Z przodu</td>
+        </tr>
+        <tr>
+            <td>Pojemność silnika</td>
+            <td>6162 cm3</td>
+        </tr>
+
+        <tr>
+            <td>Liczba cylindrów</td>
+            <td>8</td>
+        </tr>
+
+        <tr>
+            <td>Moc</td>
+            <td>650 KM</td>
+        </tr>
+        <tr>
+            <td>Maksymalny moment obrotowy</td>
+            <td>868 Nm</td>
+        </tr>
+        <tr>
+            <td>Napęd</td>
+            <td>Napęd na tylne koła</td>
+        </tr>
+        <tr>
+            <td>Przeniesienie napędu - Liczba biegów</td>
+            <td>6 biegów, Skrzynia ręczna</td>
+        </tr>
+        <tr>
+            <td>Cena za 1 dzień</td>
+            <td>7 000zł</td>
+        </tr>
+    </table>
+
+    <button onclick="toTop()" class="zmiana">Powrót do góry</button>
+
+    <div id="stopka">
+        <ul class="social_icon">
+            <li><a href="http://facebook.com"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="http://twitter.com"><ion-icon name="logo-twitter"></ion-icon></a></li>
+            <li><a href="http://linkedin.com"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+            <li><a href="http://instagram.com"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        </ul>
+        <ul class="menu">
+            <li><a href="WypSamo.html">Strona Główna</a></li>
+            <li><a href="Oferta.html">Oferta</a></li>
+            <li><a href="Formularz.html">Kontakt</a></li>
+        </ul>
+        <p>@2022 GangCars | All Rights Reserved</p>
+    </div>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script>
+        const toTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+    </script>
+
+    <script>
+        const toggleButton = document.getElementsByClassName('toggle-button')[0]
+        const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+        toggleButton.addEventListener('click', () => {
+            navbarLinks.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>
