@@ -1,5 +1,4 @@
 * {
-    padding-bottom: 20px;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -376,30 +375,7 @@ img {
         width: 100%;
     }
 }
-/*Zdjecia w ofercie*/
-.column{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    float: left;
-    width: 50%;
-    padding: 30px;
-    transition: 1s;
-}
-.row::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-.column img {
-    border: 1px solid black;
-    display: block;
-    width: 100%;
-    border-radius: 5px;
-}
-.column:hover{
-    transform:scale(1.07);
-    z-index: 2;
-}
+
 /*Auta oferta*/
 .nazwa{
    background-color: black;
@@ -514,4 +490,49 @@ table, th, td {
 }
 iframe {
     width: 100%;
+}
+
+/*zdjecia w ofercie*/
+
+.zdjecie1 {
+    float: left;
+    width: 50%;
+    padding: 30px;
+    transition: 1s;
+}
+
+.zdjecie2 {
+    float: right;
+    width: 50%;
+    padding: 30px;
+    transition: 1s;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 1000px) {
+    .zdjecie1,
+    .zdjecie2 {
+        float: none;
+        width: auto;
+    }
+}
+
+.zdjecie1:hover {
+    transform: scale(1.07);
+    z-index: 2;
+}
+.zdjecie2:hover {
+    transform: scale(1.07);
+    z-index: 2;
 }
