@@ -1,4 +1,3 @@
-<h1>Szybki rozwój figur</h1>
-    <p>W początkowej pozycji figury są schowane za pionami i mają bardzo ograniczone możliwości działania. Zasadniczo wszystkie figury są relatywnie silniejsze, gdy mogą operować w centrum szachownicy,
-         zatem w początkowej fazie partii należy je jak <strong> najszybciej wyprowadzić z pierwszej (ósmej) linii</strong>. Nazywa się to rozwijaniem figur. W pierwszej kolejności do walki wkraczają lekkie figury, czyli skoczki i gońce. Skoczki najczęściej rozwija się na pola f3 i c3 (f6 i c6), rzadziej na d2 i e2 (d7, e7). W celu uwolnienia gońców należy
-         wykonać posunięcia pionami e i d. Alternatywnie gońce można rozwijać na główne przekątne, np. po ruchu pionem g3, białopolowy goniec zajmuje pole g2. Ten manewr nazywa się fianchetto.</p>
+<h2>Dostępność sztuk</h2>
+<h1>Lamborghini Huracan Evo 5.2 V10 RWD:</h1><p>1</p>
+<h1>Chevrolet Camaro VI ZL1 6.2 V8:</h1><p>1</p>
