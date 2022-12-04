@@ -29,7 +29,7 @@ h1 {
 /**/
 .pizzapic {
     position: relative;
-    width: 50%;
+    width: 100%;
   }
   .middle {
     transition: .5s ease;
@@ -84,11 +84,15 @@ h1 {
 }
 
 .pitce {
+    display: felx;
+    float: left;
     padding-right: 15px;
     padding-left: 15px;
     margin:auto;
     margin-top: 2%;
     margin-bottom: 2%;
+    width: 50%;
+    
 }
 .mapa {
     /* overflow:hidden;
@@ -110,6 +114,7 @@ h1 {
 {
     width: 100%;
     margin-top:30px;
+
 }
 #wstep
 {
@@ -117,7 +122,8 @@ h1 {
     float: right;
     text-align: center;
     width: 40%;
-    margin-right: 2%;
+    margin-right: 3%;
+    margin-left: 3%;
 }
 .toggle-button .bar {
     background-color:black;
@@ -181,7 +187,7 @@ header.sticky ul li a {
     color: rgb(0, 0, 0);
 }
 
-#sklad
+.sklad
 {
     font-weight: 400;
     font-size: small;
@@ -355,6 +361,24 @@ table {
     text-transform: uppercase;
     color: darkorange;
   }
+  @media screen and (max-width: 900px)
+  {
+    #wrapper
+    {
+    width: 100%;
+    margin-top:30px;
+    display: grid;
+    }
+    #wstep
+    {
+    display: flex;
+    float: right;
+    text-align: center;
+    width: 40%;
+    margin-right: 3%;
+    margin-left: 30%;
+    }
+  }
 @media screen and (max-width: 600px) {
     table {
       border: 0;
@@ -412,4 +436,9 @@ table {
     bottom: 0;
     right: 5px;
     display: none;
+}
+#zamow
+{
+    font-size: 400;
+    color: red;
 }
