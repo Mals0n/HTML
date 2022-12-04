@@ -26,6 +26,36 @@ h1 {
 
 
 }
+.responsivegotuje {
+    width: 70%;
+    height:auto;
+
+
+}
+#gotowanie1
+{
+    width: 50%;
+    float: right;
+    display: flex;
+    
+
+
+}
+#gotowanie2
+{
+    width: 50%;
+    margin-left: 5%;
+
+
+}
+#conteiner
+{
+    width: 100%;
+    margin-top: 5%;
+    text-align: center;
+    
+}
+
 /**/
 .pizzapic {
     position: relative;
@@ -61,7 +91,6 @@ h1 {
 .obrazpizza
 {
     width: 100%;
-    max-height: auto;
     height:auto;
     opacity: 1;
     display: block;
@@ -71,7 +100,6 @@ h1 {
 .obrazbudynek
 {
     width: 700px;
-    max-height: auto;
     height:auto;
 }
 
@@ -84,7 +112,6 @@ h1 {
 }
 
 .pitce {
-    display: felx;
     float: left;
     padding-right: 15px;
     padding-left: 15px;
@@ -231,7 +258,7 @@ section {
     background-color: rgb(0, 0, 0);
     border-radius: 10px;
 }
-@media (max-width: 991px) {
+@media (max-width: 950px) {
     .toggle-button {
         display: flex;
     }
@@ -414,19 +441,13 @@ table {
     }
     
     table td::before {
-      /*
-      * aria-label has no advantage, it won't be read inside a table
-      content: attr(aria-label);
-      */
+
       content: attr(data-label);
       float: left;
       font-weight: bold;
       text-transform: uppercase;
     }
     
-    table td:last-child {
-      border-bottom: 0;
-    }
   }
   #toTop {
     padding: 5px 3px;
@@ -437,8 +458,9 @@ table {
     right: 5px;
     display: none;
 }
-#zamow
+#historia
 {
-    font-size: 400;
-    color: red;
+    text-align: center;
+    margin: 3%;
 }
+
